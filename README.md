@@ -6,11 +6,11 @@ Feature: Display RSS feed(s)
   Feed List must be configured to display
   
   Scenario: User configures module
-    Given User is logged in
-    And They are in edit mode
+    Given user is logged in
+    And they are in edit mode
     When the user mouses over pencil icon in the top right of module
     And Selects the FeedList Admin
-    When the settings load and user enters desired RSS URL
+    And user enters desired RSS URL
     And selects their branch
     And chooses branch Template
     And selects description
